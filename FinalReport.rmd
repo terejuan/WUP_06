@@ -78,15 +78,6 @@ colPerc(table2)
 In the data i see the white are 67% more in favor to 32%, and the others are 55% more in favor to 44%, and the black are 46% to 53%. by this we can tell that white race and others are more in favor of capital punishment than the others. 
 
 
-## Now with More data
-
-```{r}
-table2 <- xtabs(~race + cappun, data=mydata)
-rowPerc(table2)
-colPerc(table2)
-```
-
-
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
