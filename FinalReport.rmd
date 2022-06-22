@@ -13,6 +13,7 @@ output: html_document
 
 ```{r include=FALSE,echo=FALSE}
 source(file="fisherXY.R")
+
 require(tidyverse)
 require(tigerstats)
 require(knitr)
@@ -94,8 +95,10 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 
+The chi-square test does not tell us the difference between white, black or others because of the p value is too small. so we are going to run the fisherXY test to compare there difference.
+
 ```{r}
-fisherXY(mydata$cappun,mydata$race)
+fisherXY(mydata$cappun,mydata$race,printAll = TRUE)
 ```
  
 
