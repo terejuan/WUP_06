@@ -75,7 +75,7 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
-In the data i see the white are 67% more in favor to 32%, and the others are 55% more in favor to 44%, and the black are 46% to 53%. by this we can tell that white race and others are more in favor of capital punishment than the others. 
+In the data i see the white are 68% more in favor to 32% against, and the others are 55% more in favor to 44% against, and the black are 46% in favor  to 53% against. by this we can tell that white race and others are more in favor of capital punishment than the black. 
 
 
 ## Inferential Results
