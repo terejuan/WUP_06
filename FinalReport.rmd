@@ -94,6 +94,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 #fisherXY(mydata$race,mydata$cappun)
 ```
+
 ```{r}
 fisherXY = function(x, y, confL = 0, printAll=FALSE){
   # Inputs: 
@@ -162,8 +163,9 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 ```
 
 ```{r}
-fisherXY(mydata$cappun,mydata$race)
+fisherXY(mydata$cappun,mydata$race, printAll = TRUE)
 ```
+the only difference we can see is that black and white are different, and white and other are the same, there is no difference between them they are both in favor of capital punishment. the black and others are different, others are more in favor than black.
  
 
 # Discussion and Conclusion
