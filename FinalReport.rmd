@@ -165,7 +165,8 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 ```{r}
 fisherXY(mydata$cappun,mydata$race, printAll = TRUE)
 ```
-the only difference we can see is that black and white are different, and white and other are the same, there is no difference between them they are both in favor of capital punishment. the black and others are different, others are more in favor than black.
+
+The only difference we can see in the FisherXY test is that black and white are different, based on the p value of 0.0002738. white are in favor of capital punishment by 350 and black only 55. But the whites and others are the same based on the p value of 1, there is no difference between them they are both in favor of capital punishment. The black and others are different, others are more in favor than black based on the p value of 0.01143. 
  
 
 # Discussion and Conclusion
