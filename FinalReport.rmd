@@ -172,3 +172,6 @@ The only difference we can see in the FisherXY test is that black and white are 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In conclusion as we worked our way from the graph data, to the numeric data and the FisherXY, each of this test helped us conclude that whites are in favor of the capital punishment more then black and others. however when we got to the fisherXY the p value of 1 for whites and others were the same, meaning they are both in favor then black. 
+
