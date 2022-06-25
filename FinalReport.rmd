@@ -105,3 +105,5 @@ fisherXY(mydata$cappun,mydata$race,printAll = TRUE)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In conclussin in the graph date i see that white and others are in favor of capital punishments and black are opposite of it. They were counted to the 100 percent and white favor 68% and black 50% and others about the same as white being at 67%. we ran the chi-squre data and that didnt give as the answer we needed because it only gave us the p value for all 3 groups and not as in groups of 2 compare between 3 groups. we need to kmow the difference between "white and black", "black and others", and "white and others". we are going to try to tested on the fisherXY. and see if there's a difference.
